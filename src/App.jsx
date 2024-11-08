@@ -1,11 +1,9 @@
+import Hero from "./components/Hero/Hero";
+
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold underline text-blue-500">
-          Hey
-        </h1>
-      </div>
+      <Hero />
     </>
   );
 }
